@@ -17,7 +17,6 @@ struct MyTryView: View {
             VStack {
                 GeometryReader { proxy in
                     let scroll = proxy.frame(in: .named("SCROLL")).minY
-//                    let scrollRate = (-scroll - (size.height * 0.16)) / (size * 0.35 - size * 0.16)
                     VStack(alignment: .center){
                         Image("Image")
                             .resizable()
